@@ -1,0 +1,316 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", ""]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "fetchRequest"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "activeYN"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "address"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "email"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "employeeID"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "employeeLevelID"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "employeeStatus"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "firstName"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "isEnabled"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "lastName"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "levelName"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "phone"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "userMobileID"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "workDetails"]
+provides-dynamic-lookup:
+- "email"
+- "workDetails"
+- "isEnabled"
+- "phone"
+- "levelName"
+- "employeeLevelID"
+- "firstName"
+- "userMobileID"
+- "address"
+- "lastName"
+- "employeeStatus"
+- "activeYN"
+- "employeeID"
+depends-top-level:
+- "NSFetchRequest"
+- "JsonWorkersEmployeeDetails"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "NSFetchRequest"]
+- ["Ps9AnyObject", "activeYN"]
+- ["Ps9AnyObject", "address"]
+- ["Ps9AnyObject", "email"]
+- ["Ps9AnyObject", "employeeID"]
+- ["Ps9AnyObject", "employeeLevelID"]
+- ["Ps9AnyObject", "employeeStatus"]
+- ["Ps9AnyObject", "fetchRequest"]
+- ["Ps9AnyObject", "firstName"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isEnabled"]
+- ["Ps9AnyObject", "lastName"]
+- ["Ps9AnyObject", "levelName"]
+- ["Ps9AnyObject", "phone"]
+- ["Ps9AnyObject", "userMobileID"]
+- ["Ps9AnyObject", "workDetails"]
+- !private ["Ps7CVarArg", "NSFetchRequest"]
+- ["Ps7CVarArg", "activeYN"]
+- ["Ps7CVarArg", "address"]
+- ["Ps7CVarArg", "email"]
+- ["Ps7CVarArg", "employeeID"]
+- ["Ps7CVarArg", "employeeLevelID"]
+- ["Ps7CVarArg", "employeeStatus"]
+- ["Ps7CVarArg", "fetchRequest"]
+- ["Ps7CVarArg", "firstName"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "isEnabled"]
+- ["Ps7CVarArg", "lastName"]
+- ["Ps7CVarArg", "levelName"]
+- ["Ps7CVarArg", "phone"]
+- ["Ps7CVarArg", "userMobileID"]
+- ["Ps7CVarArg", "workDetails"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFetchRequest"]
+- ["Ps28CustomDebugStringConvertible", "activeYN"]
+- ["Ps28CustomDebugStringConvertible", "address"]
+- ["Ps28CustomDebugStringConvertible", "email"]
+- ["Ps28CustomDebugStringConvertible", "employeeID"]
+- ["Ps28CustomDebugStringConvertible", "employeeLevelID"]
+- ["Ps28CustomDebugStringConvertible", "employeeStatus"]
+- ["Ps28CustomDebugStringConvertible", "fetchRequest"]
+- ["Ps28CustomDebugStringConvertible", "firstName"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isEnabled"]
+- ["Ps28CustomDebugStringConvertible", "lastName"]
+- ["Ps28CustomDebugStringConvertible", "levelName"]
+- ["Ps28CustomDebugStringConvertible", "phone"]
+- ["Ps28CustomDebugStringConvertible", "userMobileID"]
+- ["Ps28CustomDebugStringConvertible", "workDetails"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "NSFetchRequest"]
+- ["Ps23CustomStringConvertible", "activeYN"]
+- ["Ps23CustomStringConvertible", "address"]
+- ["Ps23CustomStringConvertible", "email"]
+- ["Ps23CustomStringConvertible", "employeeID"]
+- ["Ps23CustomStringConvertible", "employeeLevelID"]
+- ["Ps23CustomStringConvertible", "employeeStatus"]
+- ["Ps23CustomStringConvertible", "fetchRequest"]
+- ["Ps23CustomStringConvertible", "firstName"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isEnabled"]
+- ["Ps23CustomStringConvertible", "lastName"]
+- ["Ps23CustomStringConvertible", "levelName"]
+- ["Ps23CustomStringConvertible", "phone"]
+- ["Ps23CustomStringConvertible", "userMobileID"]
+- ["Ps23CustomStringConvertible", "workDetails"]
+- !private ["Ps9Equatable", "NSFetchRequest"]
+- ["Ps9Equatable", "activeYN"]
+- ["Ps9Equatable", "address"]
+- ["Ps9Equatable", "email"]
+- ["Ps9Equatable", "employeeID"]
+- ["Ps9Equatable", "employeeLevelID"]
+- ["Ps9Equatable", "employeeStatus"]
+- ["Ps9Equatable", "fetchRequest"]
+- ["Ps9Equatable", "firstName"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isEnabled"]
+- ["Ps9Equatable", "lastName"]
+- ["Ps9Equatable", "levelName"]
+- ["Ps9Equatable", "phone"]
+- ["Ps9Equatable", "userMobileID"]
+- ["Ps9Equatable", "workDetails"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NSFetchRequest"]
+- ["Ps8Hashable", "activeYN"]
+- ["Ps8Hashable", "address"]
+- ["Ps8Hashable", "email"]
+- ["Ps8Hashable", "employeeID"]
+- ["Ps8Hashable", "employeeLevelID"]
+- ["Ps8Hashable", "employeeStatus"]
+- ["Ps8Hashable", "fetchRequest"]
+- ["Ps8Hashable", "firstName"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isEnabled"]
+- ["Ps8Hashable", "lastName"]
+- ["Ps8Hashable", "levelName"]
+- ["Ps8Hashable", "phone"]
+- ["Ps8Hashable", "userMobileID"]
+- ["Ps8Hashable", "workDetails"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "JsonWorkersEmployeeDetails"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "NSFetchRequest"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "NSObject"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "String"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "activeYN"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "address"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "deinit"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "email"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "employeeID"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "employeeLevelID"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "employeeStatus"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "fetchRequest"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "firstName"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "isEnabled"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "lastName"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "levelName"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "phone"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "userMobileID"]
+- ["C17CoreDataSampleApp26JsonWorkersEmployeeDetails", "workDetails"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- ["CSo14NSFetchRequest", "deinit"]
+- !private ["CSo14NSFetchRequest", "init"]
+- !private ["PSo20NSFetchRequestResult", "NSFetchRequest"]
+- ["PSo20NSFetchRequestResult", "activeYN"]
+- ["PSo20NSFetchRequestResult", "address"]
+- ["PSo20NSFetchRequestResult", "email"]
+- ["PSo20NSFetchRequestResult", "employeeID"]
+- ["PSo20NSFetchRequestResult", "employeeLevelID"]
+- ["PSo20NSFetchRequestResult", "employeeStatus"]
+- ["PSo20NSFetchRequestResult", "fetchRequest"]
+- ["PSo20NSFetchRequestResult", "firstName"]
+- ["PSo20NSFetchRequestResult", "isEnabled"]
+- ["PSo20NSFetchRequestResult", "lastName"]
+- ["PSo20NSFetchRequestResult", "levelName"]
+- ["PSo20NSFetchRequestResult", "phone"]
+- ["PSo20NSFetchRequestResult", "userMobileID"]
+- ["PSo20NSFetchRequestResult", "workDetails"]
+- ["CSo15NSManagedObject", "JsonWorkersEmployeeDetails"]
+- ["CSo15NSManagedObject", "NSFetchRequest"]
+- ["CSo15NSManagedObject", "NSObject"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "activeYN"]
+- ["CSo15NSManagedObject", "address"]
+- ["CSo15NSManagedObject", "email"]
+- ["CSo15NSManagedObject", "employeeID"]
+- ["CSo15NSManagedObject", "employeeLevelID"]
+- ["CSo15NSManagedObject", "employeeStatus"]
+- ["CSo15NSManagedObject", "fetchRequest"]
+- ["CSo15NSManagedObject", "firstName"]
+- ["CSo15NSManagedObject", "isEnabled"]
+- ["CSo15NSManagedObject", "lastName"]
+- ["CSo15NSManagedObject", "levelName"]
+- ["CSo15NSManagedObject", "phone"]
+- ["CSo15NSManagedObject", "userMobileID"]
+- ["CSo15NSManagedObject", "workDetails"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "JsonWorkersEmployeeDetails"]
+- ["CSo8NSObject", "NSFetchRequest"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "activeYN"]
+- ["CSo8NSObject", "address"]
+- ["CSo8NSObject", "email"]
+- ["CSo8NSObject", "employeeID"]
+- ["CSo8NSObject", "employeeLevelID"]
+- ["CSo8NSObject", "employeeStatus"]
+- ["CSo8NSObject", "fetchRequest"]
+- ["CSo8NSObject", "firstName"]
+- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isEnabled"]
+- ["CSo8NSObject", "lastName"]
+- ["CSo8NSObject", "levelName"]
+- ["CSo8NSObject", "phone"]
+- ["CSo8NSObject", "userMobileID"]
+- ["CSo8NSObject", "workDetails"]
+- !private ["PSo16NSObjectProtocol", "NSFetchRequest"]
+- ["PSo16NSObjectProtocol", "activeYN"]
+- ["PSo16NSObjectProtocol", "address"]
+- ["PSo16NSObjectProtocol", "email"]
+- ["PSo16NSObjectProtocol", "employeeID"]
+- ["PSo16NSObjectProtocol", "employeeLevelID"]
+- ["PSo16NSObjectProtocol", "employeeStatus"]
+- ["PSo16NSObjectProtocol", "fetchRequest"]
+- ["PSo16NSObjectProtocol", "firstName"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isEnabled"]
+- ["PSo16NSObjectProtocol", "lastName"]
+- ["PSo16NSObjectProtocol", "levelName"]
+- ["PSo16NSObjectProtocol", "phone"]
+- ["PSo16NSObjectProtocol", "userMobileID"]
+- ["PSo16NSObjectProtocol", "workDetails"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "NSFetchRequest"]
+- ["Ps9_Hashable", "activeYN"]
+- ["Ps9_Hashable", "address"]
+- ["Ps9_Hashable", "email"]
+- ["Ps9_Hashable", "employeeID"]
+- ["Ps9_Hashable", "employeeLevelID"]
+- ["Ps9_Hashable", "employeeStatus"]
+- ["Ps9_Hashable", "fetchRequest"]
+- ["Ps9_Hashable", "firstName"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "isEnabled"]
+- ["Ps9_Hashable", "lastName"]
+- ["Ps9_Hashable", "levelName"]
+- ["Ps9_Hashable", "phone"]
+- ["Ps9_Hashable", "userMobileID"]
+- ["Ps9_Hashable", "workDetails"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "C17CoreDataSampleApp26JsonWorkersEmployeeDetails"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo14NSFetchRequest"
+- "PSo20NSFetchRequestResult"
+- "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "823db7baa778c0b8ee8dc6ac0782e81a"

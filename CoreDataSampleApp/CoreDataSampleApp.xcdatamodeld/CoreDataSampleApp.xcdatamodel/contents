@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="17B48" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="JsonAssignedTasks" representedClassName="JsonAssignedTasks" syncable="YES" codeGenerationType="class">
+        <attribute name="assignedBY" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assignedByName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assignedByRole" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assignedTaskID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="assignedToRole" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="belongsTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="branchId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="checkListIds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateAssigned" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descriptions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distributedToId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distributedToName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employeeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employeeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="floorNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDistributsed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priorities" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskListId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskStatusID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="JsonWorkersEmployeeDetails" representedClassName="JsonWorkersEmployeeDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="activeYN" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employeeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employeeLevelID" optional="YES" attributeType="String" maxValueString="100" syncable="YES"/>
+        <attribute name="employeeStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isEnabled" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userMobileID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="workDetails" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="JsonAssignedTasks" positionX="-1055" positionY="-468" width="128" height="388"/>
+        <element name="JsonWorkersEmployeeDetails" positionX="-1253" positionY="-333" width="128" height="238"/>
+        <element name="Person" positionX="-1055" positionY="-54" width="128" height="73"/>
+    </elements>
+</model>
